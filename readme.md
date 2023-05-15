@@ -1,7 +1,7 @@
 # Cats in container ( Code Pipeline Project)
 
 This project has been forked from
-[Adrian Cantrill's](https://github.com/acantril) [catpipeline repo](https://github.com/acantril/learn-cantrill-io-labs/tree/master/aws-codepipeline-catpipeline).The project contains various stages:-
+[Adrian Cantrill's](https://github.com/acantril) [catpipeline repo](https://github.com/acantril/learn-cantrill-io-labs/tree/master/aws-codepipeline-catpipeline).I have added my own sub project in the pipeline.The project contains various stages:-
 
 - STAGE 1 : Configure Security & Create a CodeCommit Repo
 
