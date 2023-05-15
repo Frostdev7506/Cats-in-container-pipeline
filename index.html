@@ -1,18 +1,220 @@
-<html>
-	<head>
-		<title> Container of cats </title>
-	</head>
-	<body>
-		<center><h1> IF IT FITS, I SITS (.... in a container.... in a container) </h1></center>
-		
-		<section id="photos">
-			<img src="containerandcat1.jpg" alt="container and a cat">
-			<img src="containerandcat2.jpg" alt="container and a cat">
-			<img src="containerandcat3.jpg" alt="container and a cat">
-			<img src="containerandcat4.jpg" alt="container and a cat">
-			<img src="containerandcat5.jpg" alt="container and a cat">
-			<img src="containerandcat6.jpg" alt="container and a cat">	
-		</section>
-	
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Cat Container</title>
+	<!-- Font Awesome Icons CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<!-- custom CSS file -->
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<!--Header  -->
+
+	<header id="header" class="shadow bg-light">
+		<nav class="container navbar">
+			<!-- Website Title -->
+			<a href="/index.html" class="nav-brand text-dark"> Cat Container</a>
+
+			<!-- Toggle button -->
+			<button class="toggle-button" id="toggle">
+				<span><i class="fas fa-bars"> </i></span>
+			</button>
+
+			<!-- Navigation -->
+			<!-- Collapse on toggle button click -->
+			<div class="collapse">
+				<ul class="navbar-nav">
+
+					<a href="https://github.com/Frostdev7506/Cats-in-container-pipeline" class="nav-link">Github</a>
+					<a href="#footer" class="nav-link">Contact</a>
+				</ul>
+			</div>
+
+			<!-- Icons -->
+			<!-- Collapse on toggle button click -->
+			<div class="collapse">
+				<ul class="navbar-nav">
+
+					<a href="https://aws.amazon.com/codepipeline" class="nav-link">
+						<i class="fab fa-aws"></i>
+					</a>
+					<a href="https://twitter.com/frostdev7506" class="nav-link">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/neeraj-butola" class="nav-link">
+						<i class="fab fa-linkedin"></i>
+					</a>
+					<a href="#" onclick="myFunction()" class="nav-link">
+						<i id="dark" class="fas fa-moon"></i>
+					</a>
+
+					<!-- <a href="#" class="nav-link">
+                        <i class="fab fa-dribbble"></i>
+                    </a> -->
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!-- .Header -->
+
+	<!-- Body section -->
+	<div class="hero-section">
+		<!-- container for rows -->
+		<div class="rowmargin">
+			<!-- row1 -->
+
+
+			<div class="row">
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat1.jpg" alt="">
+					<div class="middle">
+						<div class="text">Ezzy</div>
+					</div>
+				</div>
+
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat2.jpg" alt="">
+					<div class="middle">
+						<div class="text">kaisan ba?</div>
+					</div>
+				</div>
+
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat3.jpg" alt="">
+					<div class="middle">
+						<div class="text">yo!</div>
+					</div>
+				</div>
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat9.jpg" alt="">
+					<div class="middle">
+						<div class="text">Kon'nichiwa</div>
+					</div>
+				</div>
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat10.jpg" alt="">
+					<div class="middle">
+						<div class="text">Salaam</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+			<!-- .row1 -->
+
+			<!-- row2 -->
+
+
+			<div class="row">
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat4.jpg" alt="">
+					<div class="middle">
+						<div class="text">Hi there</div>
+					</div>
+				</div>
+
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat5.jpg" alt="">
+					<div class="middle">
+						<div class="text">sup?</div>
+					</div>
+				</div>
+
+				<!-- individual containers in a row -->
+				<div class="rowcontainer">
+					<img src="containerandcat6.jpg" alt="">
+					<div class="middle">
+						<div class="text">Ciao</div>
+					</div>
+				</div>
+				<div class="rowcontainer">
+					<img src="containerandcat7.jpg" alt="">
+					<div class="middle">
+						<div class="text">Bonjour</div>
+					</div>
+				</div>
+				<div class="rowcontainer">
+					<img src="containerandcat8.jpg" alt="">
+					<div class="middle">
+						<div class="text">Hola</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+			<!-- .row2 -->
+		</div>
+		<!-- .container for rows -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Footer  -->
+		<div id="footer" class="footer">
+			<p>Please contact me on
+				<a
+					href="https://mail.google.com/mail/u/0/?fs=1&to=frostdev7506@gmail.com&su=SUBJECT&body=BODY&bcc=frostdev7506@gmail.com&tf=cm">
+					<i class="fas fa-envelope"></i>
+				</a>
+
+			</p>
+		</div>
+
+		<!-- .Footer  -->
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- .Body section -->
+
+
+
+
+
+	<!-- Custom javascript main.js file -->
+	<script src="main.js"></script>
+
+
+</body>
+
 </html>
