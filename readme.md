@@ -3,6 +3,10 @@
 This project has been forked from
 [Adrian Cantrill's](https://github.com/acantril) [catpipeline repo](https://github.com/acantril/learn-cantrill-io-labs/tree/master/aws-codepipeline-catpipeline).I have added my own sub project in the pipeline.The project contains various stages.
 
+# Site used in the project
+
+The website used for the pipeline is my older project. [Check it out](https://catpipeline-parfait.netlify.app/)
+
 # Screenshots
 
 ## 1
